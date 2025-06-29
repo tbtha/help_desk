@@ -59,6 +59,13 @@ public class TicketController {
     //     return userService.obtenerPorId(id);
     // }
 
+    @GetMapping("/{id}")
+    public EntityModel<Ticket> obtenerUno(@PathVariable int id) {
+        Ticket ticket = ticketService.obtenerPorId(id);
+
+        return assembler.toModel(ticket);
+    }
+
     @PostMapping("/")
     public EntityModel<Ticket> registrar(@Valid @RequestBody TicketCreate body) {
         Ticket ticket = ticketService.registrar(body);

@@ -26,7 +26,7 @@ public class TicketService {
         return ticketRepository.findAll();    
     }
 
-    public Ticket obtenerPorId(String id){
+    public Ticket obtenerPorId(int id){
         return ticketRepository.findById(id).orElse(null);
     }
 

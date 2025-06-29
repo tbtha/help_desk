@@ -8,7 +8,7 @@ import lombok.Data;
 public class TicketUpdate {
     
     @NotBlank
-    private String id;
+    private int id;
 
     @NotBlank
     private String estado;    

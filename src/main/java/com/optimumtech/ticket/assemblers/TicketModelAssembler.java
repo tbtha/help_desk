@@ -12,10 +12,10 @@ import com.optimumtech.ticket.models.entities.Ticket;
 public class TicketModelAssembler implements RepresentationModelAssembler<Ticket, EntityModel<Ticket>> {
 
     @Override
-    public EntityModel<Ticket> toModel(Ticket user) {
-        return EntityModel.of(user,
-            // linkTo(methodOn(TicketController.class).obtenerUno(user.getId())).withSelfRel(),
-            linkTo(methodOn(TicketController.class).obtenerTodos()).withRel("usuarios")
+    public EntityModel<Ticket> toModel(Ticket ticket) {
+        return EntityModel.of(ticket,
+            linkTo(methodOn(TicketController.class).obtenerUno(ticket.getId())).withSelfRel(),
+            linkTo(methodOn(TicketController.class).obtenerTodos()).withRel("ticket")
         );
     }
 }
