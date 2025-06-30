@@ -1,0 +1,9 @@
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\assemblers\TicketModelAssembler.java
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\controllers\TicketController.java
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\models\entities\Ticket.java
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\models\requests\TicketCreate.java
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\models\requests\TicketUpdate.java
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\repositories\TicketRepository.java
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\services\TicketService.java
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\swagger\OpenApiSecurityConfig.java
+C:\Users\tbtha\OneDrive\Escritorio\help_desk_tbtha-duoc\help_desk\src\main\java\com\optimumtech\ticket\TicketApplication.java
